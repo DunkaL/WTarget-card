@@ -460,9 +460,9 @@ img {
   color: var(--html-color-author);
   text-decoration: none !important;
   opacity: 0.5;
-  -webkit-transition: .2s linear;
-  -o-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: opacity .2s linear;
+  -o-transition: opacity .2s linear;
+  transition: opacity .2s linear;
 }
 
 .v-card__created-link span {
