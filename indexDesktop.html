@@ -31,22 +31,22 @@
         <meta name="twitter:image:src" content="https://.../image250X250.png"/>
         <meta name="twitter:domain" content="website.com"/>
         
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.min.css">
         
         <title>vCard-desktop</title>    </head>
-    <body>
+    <body class="body-card">
         
         <main class="v-card v-card_desktop">
             <div class="v-card_desktop__container">
         
-                <div  class="v-card_desktop__flex">
+                <div class="v-card_desktop__flex">
                     <div class="v-card_desktop__profile">
                         <img class="v-card__photo v-card_desktop__photo" src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.6435-9/119448752_3290786574367530_6891711671019301988_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=HFcJrOC6_BQAX_jNVkS&_nc_ht=scontent-waw1-1.xx&oh=d7d2dd5271c369007fe36d500895b588&oe=60AD3E01" onerror="this.src = 'http://yamarket.net/image/cache/data/import_yml/SD0/003/456/7/no_img-700x700.jpg'" alt="avatar">
                         <h1 class="v-card__title v-card_desktop__title">Viktor Dovzhik</h1>
                         <p class="v-card__disc v-card_desktop__disc">W-Target profile card description.<br> Why not making multiple lines here?</p>
                     </div>
-                    <div class="v-card_desktop__qr-code">
+                    <div>
                         <div class="v-card_desktop__info">
                             <div class="v-card_desktop__code">
                                 <svg width="216" height="217" viewBox="0 0 216 217" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -564,7 +564,7 @@
                                     <path d="M209.493 208.713H202.987V215.22H209.493V208.713Z" fill="#0E0E0E"/>
                                 </svg>                
                             </div>
-                            <div class="v-card_desktop__steps">
+                            <div>
                                 <div class="v-card_desktop__step">
                                     <span class="v-card_desktop__step-index">Шаг 1</span>
                                     <p class="v-card_desktop__step-text">Откройте WhatsApp</p>
@@ -581,8 +581,8 @@
                         </div>
                         <div class="v-card_desktop__buttons">
                             <p class="v-card__disc v-card_desktop__buttons-question">Хотите продолжить общение на ПК?</p>
-                            <button class="v-card__btn v-card_desktop__btn v-card__btn-green v-card__btn-margb">Открыть WhatsApp Web</button>
-                            <button class="v-card__btn v-card_desktop__btn">Сохранить визитку</button>
+                            <a href="#" class="v-card__btn v-card_desktop__btn v-card__btn-green v-card__btn-margb">Открыть WhatsApp Web</a>
+                            <a href="#" class="v-card__btn v-card_desktop__btn">Сохранить визитку</a>
                         </div>
                     </div>
                 </div>
